@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kinshukkar/Desktop/FEEDIO/feedio-sample-contract/contracts/FeedioSample/src/FeedioSampleContract.csproj": {}
+  },
+  "projects": {
+    "/Users/kinshukkar/Desktop/FEEDIO/feedio-sample-contract/contracts/FeedioSample/src/FeedioSampleContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kinshukkar/Desktop/FEEDIO/feedio-sample-contract/contracts/FeedioSample/src/FeedioSampleContract.csproj",
+        "projectName": "FeedioSampleContract",
+        "projectPath": "/Users/kinshukkar/Desktop/FEEDIO/feedio-sample-contract/contracts/FeedioSample/src/FeedioSampleContract.csproj",
+        "packagesPath": "/Users/kinshukkar/.nuget/packages/",
+        "outputPath": "/Users/kinshukkar/Desktop/FEEDIO/feedio-sample-contract/contracts/FeedioSample/src/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/kinshukkar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Neo.SmartContract.Framework": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

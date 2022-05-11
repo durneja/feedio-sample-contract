@@ -1,0 +1,12 @@
+/Users/kinshukkar/Desktop/FEEDIO/feedio-sample-contract/contracts/FeedioSample/src/bin/Debug/net6.0/FeedioSampleContract.deps.json
+/Users/kinshukkar/Desktop/FEEDIO/feedio-sample-contract/contracts/FeedioSample/src/bin/Debug/net6.0/FeedioSampleContract.dll
+/Users/kinshukkar/Desktop/FEEDIO/feedio-sample-contract/contracts/FeedioSample/src/bin/Debug/net6.0/FeedioSampleContract.pdb
+/Users/kinshukkar/Desktop/FEEDIO/feedio-sample-contract/contracts/FeedioSample/src/obj/Debug/net6.0/FeedioSampleContract.csproj.AssemblyReference.cache
+/Users/kinshukkar/Desktop/FEEDIO/feedio-sample-contract/contracts/FeedioSample/src/obj/Debug/net6.0/FeedioSampleContract.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kinshukkar/Desktop/FEEDIO/feedio-sample-contract/contracts/FeedioSample/src/obj/Debug/net6.0/FeedioSampleContract.AssemblyInfoInputs.cache
+/Users/kinshukkar/Desktop/FEEDIO/feedio-sample-contract/contracts/FeedioSample/src/obj/Debug/net6.0/FeedioSampleContract.AssemblyInfo.cs
+/Users/kinshukkar/Desktop/FEEDIO/feedio-sample-contract/contracts/FeedioSample/src/obj/Debug/net6.0/FeedioSampleContract.csproj.CoreCompileInputs.cache
+/Users/kinshukkar/Desktop/FEEDIO/feedio-sample-contract/contracts/FeedioSample/src/obj/Debug/net6.0/FeedioSampleContract.dll
+/Users/kinshukkar/Desktop/FEEDIO/feedio-sample-contract/contracts/FeedioSample/src/obj/Debug/net6.0/refint/FeedioSampleContract.dll
+/Users/kinshukkar/Desktop/FEEDIO/feedio-sample-contract/contracts/FeedioSample/src/obj/Debug/net6.0/FeedioSampleContract.pdb
+/Users/kinshukkar/Desktop/FEEDIO/feedio-sample-contract/contracts/FeedioSample/src/obj/Debug/net6.0/ref/FeedioSampleContract.dll

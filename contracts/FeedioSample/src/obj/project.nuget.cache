@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nQ5Xygm6z/+PycJjjSlzATw2Mw8JS39fLbk7GLFqxArWT05r58t46AZKU/9XAD4L+YHjRgRDpuCouRlqo+gDKg==",
+  "success": true,
+  "projectFilePath": "/Users/kinshukkar/Desktop/FEEDIO/feedio-sample-contract/contracts/FeedioSample/src/FeedioSampleContract.csproj",
+  "expectedPackageFiles": [
+    "/Users/kinshukkar/.nuget/packages/neo.smartcontract.framework/3.1.0/neo.smartcontract.framework.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
