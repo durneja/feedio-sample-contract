@@ -35,15 +35,13 @@ namespace FeedioSample
 
         public static Map<string, object> GetTokenPrice() {
             
-            ByteString latestPriceData = (ByteString) Contract.Call(ToScripthash("NUaWLwEL9bJZGmkpLesEmkkkmfDsFz1YGo"), "getLatestTokenPrice", CallFlags.ReadOnly, (ByteString) "GAS");
-            object[] priceData = (object[]) StdLib.JsonDeserialize(latestPriceData);
-            BigInteger priceValue = (BigInteger)priceData[1];
-            BigInteger decimals = (BigInteger)priceData[2];
+            ByteString latestPriceData = (ByteString) Contract.Call(ToScripthash("NUaWLwEL9bJZGmkpLesEmkkkmfDsFz1YGo"), "getLatestTokenPrice", CallFlags.All, (ByteString) "GAS");
+            TokenPriceResponse priceData = (TokenPriceResponse) StdLib.JsonDeserialize(latestPriceData);
 
-            Map<string, object> map = new();
-            map["token"] = (ByteString)priceData[0];
-            map["price"] = (BigInteger)priceData[1];
-            map["decimals"] = (BigInteger)priceData[2];
+            Map<string, object> map = new Map<string, object>();
+            map["token"] = (ByteString)priceData.name;
+            map["price"] = (BigInteger)priceData.value;
+            map["decimals"] = (BigInteger)priceData.decimals;
 
             return map;
         }
@@ -92,4 +90,17 @@ namespace FeedioSample
         }
 
     }
+
+    public class TokenPriceResponse {
+        public string name; //Token Name
+        public BigInteger value; //Value of the token
+        public BigInteger decimals; //Decimals
+
+        public TokenPriceResponse(string tokenName, BigInteger tokenValue, BigInteger decimals) {
+            this.name = tokenName;
+            this.value = tokenValue;
+            this.decimals = decimals;
+        }
+    }
+
 }
