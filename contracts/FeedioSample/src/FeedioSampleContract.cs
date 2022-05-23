@@ -36,12 +36,11 @@ namespace FeedioSample
         public static Map<string, object> GetTokenPrice() {
             
             ByteString latestPriceData = (ByteString) Contract.Call(ToScripthash("NUaWLwEL9bJZGmkpLesEmkkkmfDsFz1YGo"), "getLatestTokenPrice", CallFlags.All, (ByteString) "GAS");
-            TokenPriceResponse priceData = (TokenPriceResponse) StdLib.JsonDeserialize(latestPriceData);
-
+            TokenPriceResponse priceResponse = (TokenPriceResponse)StdLib.JsonDeserialize(latestPriceData);
             Map<string, object> map = new Map<string, object>();
-            map["token"] = (ByteString)priceData.name;
-            map["price"] = (BigInteger)priceData.value;
-            map["decimals"] = (BigInteger)priceData.decimals;
+            map["name"] = priceResponse.name;
+            map["value"] = priceResponse.value;
+            map["decimals"] = priceResponse.decimals;
 
             return map;
         }
@@ -88,7 +87,6 @@ namespace FeedioSample
             }
             return null;
         }
-
     }
 
     public class TokenPriceResponse {
